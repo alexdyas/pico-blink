@@ -7,11 +7,11 @@ BUILD_DIR="build"
 export PICO_SDK_PATH="../../pico-sdk"
 
 # Remove build dir <- Probably don't really need this, but cleaner for now
-if [ -d "${BUILD_DIR}" ]
-then
-  echo "---------- Removing existing build directory ------------"
-  rm -rf "${BUILD_DIR}"
-fi
+#if [ -d "${BUILD_DIR}" ]
+#then
+#  echo "---------- Removing existing build directory ------------"
+#  rm -rf "${BUILD_DIR}"
+#fi
 
 # Construct the make files
 echo "---------- cmake ------------"
